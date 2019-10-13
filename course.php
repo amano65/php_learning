@@ -19,9 +19,9 @@
     }
 
 //DB接続
-    $dsn = 'mysql:dbname=tb210133db;host=localhost';
-    $user = 'tb-210133';
-    $password = 'PHF7gy2jzx';
+    $dsn = 'db';
+    $user = 'user';
+    $password = 'password';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING)); 
 
 //スレッドIDの取得
